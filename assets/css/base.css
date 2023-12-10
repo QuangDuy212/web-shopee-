@@ -1,4 +1,5 @@
 :root {
+  --primary-color:#EE4D2D;
   --white-color: #fff;
   --black-color: #000;
   --text-color: #333;
@@ -32,4 +33,15 @@ p {
 .grid__row{
     display: flex;
     flex-wrap: warp;
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
