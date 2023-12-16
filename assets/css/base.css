@@ -26,6 +26,8 @@ p {
   line-height: 1.6rem;
 }
 
+
+/* Responsive */
 .grid {
   width: 1200px;
   max-width: 100%;
@@ -38,6 +40,21 @@ p {
 .grid__row {
   display: flex;
   flex-wrap: warp;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+/* Test */
+.grid__column-2{
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 16.6667%;
+}
+
+.grid__column-10{
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 83.3334%;
 }
 
 /* Animation */
@@ -96,7 +113,7 @@ p {
   outline: none;
   cursor: pointer;
   color: var(--text-color);
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
