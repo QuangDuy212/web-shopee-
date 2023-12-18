@@ -516,7 +516,7 @@
 .header__cart-list-item {
   padding-left: 0;
   list-style: none;
-  height: 30vh; 
+  height: 30vh;
   /* view port height : 70 % height*/
   overflow-y: auto;
 }
@@ -832,11 +832,11 @@
   position: relative;
 }
 
-.category-item:first-child::before{
+.category-item:first-child::before {
   display: none;
 }
 
-.category-item::before{
+.category-item::before {
   content: "";
   border-top: 1px solid #e1e1e1;
   position: absolute;
@@ -933,7 +933,7 @@
 }
 
 /* Product item */
-.home-product{
+.home-product {
   margin-bottom: 10px;
 }
 .home-product-item {
@@ -956,8 +956,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-top-left-radius:2px ;
-  border-top-right-radius:2px ;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 .home-product-item__name {
   font-size: 1.4rem;
@@ -1103,3 +1103,76 @@ i.home-product-item__like-icon-fill {
   line-height: 1.4rem;
   font-weight: 600;
 }
+.home-product__pagination {
+  margin: 48px 0 32px;
+}
+
+/* footer */
+.footer {
+  padding-top: 16px;
+  border-top: 4px solid var(--primary-color);
+  background-color: var(--white-color);
+}
+
+.footer__heading {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-item {
+}
+.footer-item__link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #737373;
+  padding: 2px 0;
+  display: flex;
+  align-items: center;
+}
+.footer-item__link:hover{
+  color:var(--primary-color);
+}
+.footer-item__icon{
+  font-size: 1.6rem;
+  margin: -1px 8px 0 0 ;
+}
+.footer__download{
+  display: flex;
+}
+.footer__download-qr{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border: 1px solid var(--border-color);
+}
+.footer__download-apps{
+  flex: 1;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__download-app-img{
+  height: 16px;
+
+}
+.footer__download-app-link{
+  color: transparent;
+  text-decoration: none;
+}
+.footer__bottom{
+  padding: 8px 0;
+  background-color: #f5f5f5;
+  margin-top: 36px;
+}
+.footer__text {
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #737373;
+}
+
