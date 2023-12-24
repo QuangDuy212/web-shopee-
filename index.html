@@ -159,9 +159,47 @@
 
                 <!-- Header with search -->
                 <div class="header-with-search">
-                    <label for="mobile-search-checkbox" class="header__mobile-search">
-                        <i class="header__mobile-search-icon fa-solid fa-magnifying-glass"></i>
-                    </label>
+                    <div class="header__mobile">
+                        <label for="mobile-category-checkbox" class="header__mobile-category">
+                            <i class="header__mobile-category-icon fa-solid fa-list"></i>
+                        </label>
+
+
+                        <label for="mobile-search-checkbox" class="header__mobile-search">
+                            <i class="header__mobile-search-icon fa-solid fa-magnifying-glass"></i>
+                        </label>
+
+                    </div>
+                    <input type="checkbox" hidden id="mobile-category-checkbox" class="header__category-checkbox">
+                    <div class="modal">
+                        <div class="header__mobile-category-wrap">
+                            <h3 class="header__mobile-category-heading">Danh mục</h3>
+                            <ul class="header__mobile-category-list">
+                                <li class="header__mobile-category-item">
+                                    <i class="header__mobile-category-user-icon fa-solid fa-user"></i>
+                                </li>
+                                <li class="header__mobile-category-item header_mobile-category-user">
+                                    <a href="">Duy Nguyễn</a>
+                                </li>
+                                <li class="header__mobile-category-item">
+                                    <a href="">Trang cá nhân</a>
+                                </li>
+                                <li class="header__mobile-category-item">
+                                    <a href="">Cửa hàng của tôi</a>
+                                </li>
+                                <li class="header__mobile-category-item">
+                                    <a href="">Đơn hàng</a>
+                                </li>
+                                <li class="header__mobile-category-item">
+                                    <a href="">Trang chủ</a>
+                                </li>
+                                <li class="header__mobile-category-item">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
 
                     <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
@@ -176,7 +214,6 @@
                     </div>
 
                     <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
-
                     <div class="header__search ">
                         <div class="header__search-input-wrap">
                             <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
